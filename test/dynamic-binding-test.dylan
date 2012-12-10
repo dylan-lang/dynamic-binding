@@ -1,4 +1,4 @@
-module: test
+module: dynamic-binding-test
 synopsis: Simple demonstration program.
 author: Dustin Voss
 
