@@ -10,7 +10,7 @@ end library;
 
 define module dynamic-binding
    use dylan;
-   use common-dylan, import: { format-to-string };
+   use simple-format, import: { format-to-string };
    export with-dynamic-bindings, dynamic-binding, dynamic-binding-setter,
           <dynamic-binding-access>, <binding-not-in-dynamic-scope>, binding-name;
 end module;
